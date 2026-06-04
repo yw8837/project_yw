@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "project-yw"
+version = "0.1.0"
+authors = [
+  { name = "Ywoo", email = "bsfire1237@gmail.com" }
+]
+description = "My first python package"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yw8837/project_yw.git"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "twine>=6.2.0",
+]
